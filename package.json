@@ -1,0 +1,32 @@
+{
+		"name": "power-assert-jest-test",
+		"version": "0.0.1",
+		"author": "jmquigley <jmquigley@outlook.com>",
+		"description": "Test repo showing jest and power assert with a simple test",
+		"private": false,
+		"license": "MIT",
+		"repository": {
+				"type": "git",
+				"url": "https://github.com/jmquigley/power-assert-jest-test"
+		},
+		"bugs": {
+				"url": "https://github.com/jmquigley/power-assert-jest-test/issues"
+		},
+		"engines": {
+				"node": ">=7.5"
+		},
+		"scripts": {
+				"all": "npm install && npm test",
+				"test": "jest"
+		},
+		"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-jest": "^20.0.3",
+				"babel-preset-es2016": "^6.24.1",
+				"babel-preset-es2017": "^6.24.1",
+				"babel-preset-power-assert": "^1.0.0",
+				"babel-preset-stage-3": "^6.24.1",
+				"jest": "^20.0.4",
+				"power-assert": "^1.4.4"
+		}
+}

@@ -1,0 +1,8 @@
+{
+    "presets": [
+				"babel-preset-power-assert",
+				"es2016",
+				"es2017",
+				"stage-3"
+		]
+}
